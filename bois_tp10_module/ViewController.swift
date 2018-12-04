@@ -138,6 +138,9 @@ class ViewController: UIViewController {
     
     }
     
+    @IBAction func selectAll(_ sender: Any) {
+        
+    }
     
     
     

@@ -11,6 +11,7 @@
 		F517EE5221B6F33300B60E3C /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F517EE4321B6F2E000B60E3C /* SQLite.framework */; };
 		F517EE5321B6F33300B60E3C /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F517EE4321B6F2E000B60E3C /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F517EE5821B6F51200B60E3C /* InsertModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517EE5721B6F51200B60E3C /* InsertModuleViewController.swift */; };
+		F517EE5A21B70B2300B60E3C /* ModulesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517EE5921B70B2300B60E3C /* ModulesTableViewController.swift */; };
 		F5C5953321B58AF60026DE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5953221B58AF60026DE02 /* AppDelegate.swift */; };
 		F5C5953521B58AF60026DE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5953421B58AF60026DE02 /* ViewController.swift */; };
 		F5C5953821B58AF60026DE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C5953621B58AF60026DE02 /* Main.storyboard */; };
@@ -94,6 +95,7 @@
 /* Begin PBXFileReference section */
 		F517EE3821B6F2E000B60E3C /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
 		F517EE5721B6F51200B60E3C /* InsertModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertModuleViewController.swift; sourceTree = "<group>"; };
+		F517EE5921B70B2300B60E3C /* ModulesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesTableViewController.swift; sourceTree = "<group>"; };
 		F5C5952F21B58AF50026DE02 /* bois_tp10_module.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bois_tp10_module.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C5953221B58AF60026DE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C5953421B58AF60026DE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				F5C5953921B58AFE0026DE02 /* Assets.xcassets */,
 				F5C5953B21B58AFE0026DE02 /* LaunchScreen.storyboard */,
 				F5C5953E21B58AFE0026DE02 /* Info.plist */,
+				F517EE5921B70B2300B60E3C /* ModulesTableViewController.swift */,
 			);
 			path = bois_tp10_module;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				F517EE5821B6F51200B60E3C /* InsertModuleViewController.swift in Sources */,
 				F5C5953521B58AF60026DE02 /* ViewController.swift in Sources */,
+				F517EE5A21B70B2300B60E3C /* ModulesTableViewController.swift in Sources */,
 				F5C5953321B58AF60026DE02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
