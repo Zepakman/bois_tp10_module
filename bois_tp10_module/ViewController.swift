@@ -138,7 +138,7 @@ class ViewController: UIViewController {
     
     }
     
-    @IBAction func selectAll(_ sender: Any) {
+    @IBAction func selectAllModule(_ sender: Any) {
         
     }
     
